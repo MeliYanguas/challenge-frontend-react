@@ -33,41 +33,38 @@ const Login = () => {
   };
 
   return (
-    <div className="route">
+    <div className="login">
+      <form onSubmit={handleLogin}>
+        <h2>Login</h2>
 
-      <div className="login">
-        <form onSubmit={handleLogin}>
-          <h2>Login</h2>
-
-          <div className="email">
-            <label htmlFor="email">Email : </label>
-            <input
-              type="email"
-              onChange={(e) => setEmail(e.target.value)}
-              value={email}
-              name="email"
-              id="email"
-              placeholder="EMAIL"
-            />
-          </div>
-          <div className="password">
-            <label htmlFor="password">Password : </label>
-            <input
-              type="password"
-              onChange={(e) => setPassword(e.target.value)}
-              value={password}
-              name="password"
-              id="password"
-              placeholder="PASSWORD"
-            />
-          </div>
+        <div className="email">
+          <label htmlFor="email">Email : </label>
           <input
-            className="btn btn-primary form-control my-2 my-sm-0"
-            type="submit"
-            value="Enviar"
+            type="email"
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
+            name="email"
+            id="email"
+            placeholder="EMAIL"
           />
-        </form>
-      </div>
+        </div>
+        <div className="password">
+          <label htmlFor="password">Password : </label>
+          <input
+            type="password"
+            onChange={(e) => setPassword(e.target.value)}
+            value={password}
+            name="password"
+            id="password"
+            placeholder="PASSWORD"
+          />
+        </div>
+        <input
+          className="btn btn-primary form-control my-2 my-sm-0"
+          type="submit"
+          value="Enviar"
+        />
+      </form>
     </div>
   );
 };

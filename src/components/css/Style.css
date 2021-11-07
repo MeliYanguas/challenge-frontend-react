@@ -3,7 +3,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* CARDS -------------------------- */
+/* ---- CARDS ---- */
 .card {
   border: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -12,18 +12,13 @@
   background-color: #abb0b9;
   position: relative;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #0e1927;
   overflow: hidden;
   border-radius: 30px;
-  align-items: center;
-  justify-content: center;
-  
 }
 
 .card button {
   color: #283e5a;
     top: 0;
-    left: -10;
     right: 0;
     position: absolute;
     border: none;
@@ -35,7 +30,7 @@
   color: #283e5a;
 }
 
-/* ------------ */
+/* ---- search for gender ---- */
 
 .searchBar{
     display: flex;
@@ -52,11 +47,8 @@
     width: 300px;
 }
 
-/* ------------------- */
+/* ---- details ---- */
 .details{
-    font-size: 15px;
-    font-weight: 100;
-    text-align: justify;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -65,11 +57,7 @@
     overflow: auto; 
     max-height: 100%;
     background-color: #abb0b9;
-    border: none;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
 }
 .details span {
   font-weight: bold;
@@ -79,7 +67,7 @@
   display: none;
 }
 
-/* ----album page -----*/
+/* ---- album page ----*/
 
 .albums {
   font-size: 1.2em;
@@ -89,7 +77,6 @@
 .albums span {
   font-weight: bold;
 }
-
 
 @media only screen and (max-width: 600px) {
   body {
