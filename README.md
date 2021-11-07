@@ -3,7 +3,7 @@
 ## to compile got to he projects' folder 
 
 ```
-cd> challenge
+cd> challenge-nubceo
 cd> react
 ```
 
