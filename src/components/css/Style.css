@@ -1,0 +1,99 @@
+.title {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* CARDS -------------------------- */
+.card {
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin: 5px;
+  padding: 0;
+  background-color: #abb0b9;
+  position: relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #0e1927;
+  overflow: hidden;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card button {
+  color: #283e5a;
+    top: 0;
+    left: -10;
+    right: 0;
+    position: absolute;
+    border: none;
+    background-color: transparent 
+}
+
+.card-txt{
+  text-transform: uppercase;
+  color: #283e5a;
+}
+
+/* ------------ */
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.searchBar .btn{
+    border-radius: 0% 5% 5% 0%;
+    margin-left: 5px;
+}
+.textField{
+    border-radius: 0;
+    width: 300px;
+}
+
+/* ------------------- */
+.details{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    overflow: auto; 
+    max-height: 100%;
+    background-color: #abb0b9;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.details span {
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* ----album page -----*/
+
+.albums {
+  font-size: 1.2em;
+  color: #283e5a;
+}
+
+.albums span {
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
