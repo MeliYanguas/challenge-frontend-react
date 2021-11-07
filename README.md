@@ -1,13 +1,6 @@
 # Development Challenge for React by Melina
 
-## to compile got to he projects' folder 
-
-```
-cd> challenge-nubceo
-cd> react
-```
-
-### and install all the dependencies (described in package.json file) using
+## to compile install all the dependencies (described in package.json file) using
 
 ```
 npm install 
