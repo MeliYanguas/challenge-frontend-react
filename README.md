@@ -19,3 +19,8 @@ npm start
 ### Login-logout (with private routes)
 
 ### Bands menu get from an API with a filter by gender by clicking you get more information about the band and a link to the albums
+
+## _Preview_ :eyes::
+
+![](preview-login.png)
+![](preview-albums.png)
